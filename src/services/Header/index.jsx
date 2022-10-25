@@ -25,8 +25,8 @@ export default function Header() {
         <S.TitleTwo>BRASIL</S.TitleTwo>
       </S.BoxTitle>
       <S.Ul>
-        <S.Li><S.LINK>Sobre</S.LINK></S.Li>
-        <S.Li><S.LINK>ODS</S.LINK></S.Li>
+        <S.Li><S.LINK to="/">Sobre</S.LINK></S.Li>
+        <S.Li><S.LINK to="/ods">ODS</S.LINK></S.Li>
       </S.Ul>
     </S.Header>
   );
